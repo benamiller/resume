@@ -1,5 +1,77 @@
-\documentclass{article}
+\documentclass[10pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\definecolor{linkblue}{HTML}{0366d6}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkblue
+}
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\setlength{\parindent}{0pt}
+
 \begin{document}
-My email is: EMAIL
-My phone is: PHONE
+
+\begin{center}
+    {\Huge\textbf{Benjamin Miller}}\\
+    \vspace{1mm}
+    \href{mailto:EMAIL}{EMAIL} $\bullet$ PHONE $\bullet$
+    \href{https://github.com/benamiller}{github.com/benamiller}
+\end{center}
+
+\section*{Education}
+\textbf{MSc, Computer Science (AI/ML)} \hfill \textit{Jan 2025 -- May 2026 (Expected)}\\
+University of Illinois Urbana-Champaign \hfill 4.0 GPA\\
+\textbf{BSc, Computer Science (Software Systems)} \hfill \textit{Sep 2019 -- May 2022}\\
+University of Victoria \hfill Dean's Entrance Scholarship, President’s Scholarship
+
+\section*{Experience}
+\textbf{Backend Java \& DevOps Developer} \hfill \textit{Canadian Tire, Feb -- Nov 2024}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Optimized Azure Databricks pipelines, reducing cloud overhead and resource costs.
+    \item Developed geo-replicated Pulsar clusters on Azure AKS, automating disaster recovery.
+    \item Automated Kubernetes key rotation, cutting manual intervention time by 75\%.
+    \item Resolved critical Pulsar outage, enabling timely quarterly deliverables.
+\end{itemize}
+
+\textbf{QA Specialist} \hfill \textit{Redbrick, May 2022 -- Feb 2024}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Engineered automation suites (Playwright, TypeScript), cutting manual QA workload by 50\%.
+    \item Improved product reliability by identifying and fixing critical JavaScript bugs.
+    \item Facilitated Agile workflows and streamlined code reviews.
+\end{itemize}
+
+\section*{Technical Skills}
+\textbf{Languages:} Java, Python, TypeScript, JavaScript, SQL, Bash\\
+\textbf{Cloud/DevOps:} Azure (Databricks, AKS, Service Bus, DevOps), Terraform, Kubernetes, Helm, Pulsar\\
+\textbf{ML Frameworks:} TensorFlow, PyTorch, scikit-learn\\
+\textbf{Web:} Spring Boot, React, Node.js\\
+\textbf{Databases:} MongoDB, CosmosDB, Azure SQL, PostgreSQL
+
+\section*{Certifications}
+\textbf{Deep Learning Specialization} (Coursera, Andrew Ng) \hfill \href{https://coursera.org/share/f5fa4c831a360de7841411165ebabcc4}{Certificate}, \textit{Sep 2024}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Built CNNs for CIFAR-10; developed deep RL models for OpenAI Gym environments.
+\end{itemize}
+\textbf{Machine Learning Specialization} (Coursera, Andrew Ng) \hfill \href{https://coursera.org/share/c8ccd34bd3358236ad3f17c5907bdf17}{Certificate}, \textit{Feb 2024}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Developed regression/classification models and ensemble methods in scikit-learn.
+\end{itemize}
+
+\section*{Projects}
+\textbf{mlzero} \hfill \href{https://mlzero.com}{mlzero.com}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Created an interactive ML learning platform with comprehensive public lessons.
+\end{itemize}
+\textbf{CUDA CNN from Scratch} \hfill \href{https://cnn.c}{cnn.c}
+\begin{itemize}[leftmargin=0.25in, itemsep=0pt]
+    \item Implementing optimized convolutional neural networks using CUDA and C.
+\end{itemize}
+
+\section*{Research Interests}
+Deep Learning, Distributed Systems, Reinforcement Learning, Digital Intelligence
+
 \end{document}
+
